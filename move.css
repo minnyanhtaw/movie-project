@@ -1,0 +1,39 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.movie {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.movie-container {
+    width: 70%;
+}
+
+.movie-sideBar {
+    width: 30%;
+}
+
+.action-heading {
+}
+
+.action-box {
+}
+
+.movie-number {
+}
+
+.movie-name {
+}
+
+.stars-box {
+}
+
+.trailer-link {
+}
+
+.watch-link {
+}
