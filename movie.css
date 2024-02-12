@@ -1,0 +1,235 @@
+* {
+  font-family: "Jost", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 3000px;
+}
+
+.heading {
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+.movie {
+  display: flex;
+  /* align-items: center; */
+}
+
+.movie-container {
+  width: 80%;
+  border: 1px solid black;
+}
+
+.action {
+  padding: 0 0 0 50px;
+}
+
+.action-box,
+.series-box,
+.cartoon-box,
+.horror-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.movie-img {
+  width: 10%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.movie-number {
+  width: 20%;
+  text-align: center;
+}
+
+.movie-name {
+  width: 20%;
+  text-align: center;
+}
+
+.stars-box {
+  width: 20%;
+  text-align: center;
+  color: gold;
+}
+
+.trailer-link {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  text-decoration: none;
+  color: black;
+}
+.watch-link {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.action-box-underline,
+.horror-box-underline,
+.cartoon-box-underline,
+.series-box-underline {
+  margin: 10px 0 10px 0px;
+}
+
+.series,
+.cartoon,
+.horror {
+  padding: 0 0 0 50px;
+}
+
+.movie-sideBar {
+  width: 20%;
+  border: 1px solid pink;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.sideBar-heading {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 30px 0;
+  margin: 0;
+}
+
+.sideBar-link {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 30px;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-size: 20px;
+}
+
+.subscribe-box {
+  padding: 0 20px;
+}
+
+.subscribe-heading {
+  text-align: center;
+}
+
+.subscribe-sub-title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.subscribe-email {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.subscribe-btn {
+  width: 100%;
+  height: 40px;
+  background-color: #ff9900;
+  border: none;
+  transition: 600ms;
+  color: white;
+}
+.subscribe-btn:hover {
+  background-color: #b36b00;
+}
+
+.footer-section {
+  padding: 0 50px;
+}
+
+.footer-section-container {
+  display: flex;
+}
+
+.about-us-link {
+  width: 25%;
+}
+.about-us-heading,
+.quick-link-heading,
+.more-link-heading,
+.contact-link-heading {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.about-us-link-items {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.social-link {
+  display: flex;
+  gap: 20px;
+}
+.social-link-item {
+  font-size: 25px;
+  color: black;
+}
+
+.quick-link {
+  width: 25%;
+}
+.quick-link-item,
+.more-link-item {
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.more-link {
+  width: 25%;
+}
+
+.contact-link {
+  width: 25%;
+}
+
+.location {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-box {
+  font-size: 20px;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.copy-right-section {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
